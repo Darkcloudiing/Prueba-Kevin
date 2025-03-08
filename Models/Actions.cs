@@ -15,9 +15,10 @@ namespace Prueba_Kevin.Models
         WorkContext context;
         public void MenuCrearCliente()
         {
+
             Client client = new Client();
             Console.Clear();
-            Console.WriteLine("Ingrese el Nombre del Cliente");
+            Console.WriteLine("Ingrese el Nombre del Cliente.");
             client.ClientName = Console.ReadLine();
             Console.Clear();
             Console.WriteLine("Ingrese el tipo de Documento de identidad");
